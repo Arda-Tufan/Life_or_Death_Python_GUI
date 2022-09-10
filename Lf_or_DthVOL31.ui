@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1119</width>
+    <height>814</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1101</width>
+     <height>821</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 255, 39, 255), stop:0.494318 rgba(0, 0, 0, 255), stop:0.98 rgba(255, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));</string>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="page_1">
+    <widget class="QTextBrowser" name="textBrowser_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>500</y>
+       <width>1111</width>
+       <height>321</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 255, 39, 255), stop:0.494318 rgba(0, 0, 0, 255), stop:0.98 rgba(255, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));</string>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:6.6pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;h2 align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Geograph','Gotham A','Gotham B','CenturyGothic','AppleGothic','Gill Sans','Gill Sans MT','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff; text-transform:uppercase;&quot;&gt;DESCRIPTION&lt;/span&gt;&lt;/h2&gt;
+&lt;p style=&quot; margin-top:20px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;@Mors_Atra&lt;/span&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:12pt; font-weight:600; color:#a6a6a7;&quot;&gt; presents the &lt;/span&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:12pt; font-weight:600; color:#005fa7;&quot;&gt;Python&lt;/span&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:12pt; font-weight:600; color:#a6a6a7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:12pt; font-weight:600; color:#b8b200;&quot;&gt;GUI of &lt;/span&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:12pt; font-weight:600; font-style:italic; color:#32a700;&quot;&gt;Life&lt;/span&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:12pt; font-weight:600; color:#a6a6a7;&quot;&gt; or &lt;/span&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:12pt; font-weight:600; font-style:italic; color:#a70000;&quot;&gt;Death&lt;/span&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:12pt; font-weight:600; color:#a6a6a7;&quot;&gt;. Each question will tell the stories of real people in desperate situations, and offer you the choices these individuals faced in their struggle to survive. Through caught-on-tape moments &lt;/span&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:12pt; font-weight:600; font-style:italic; color:#32a700;&quot;&gt;Life&lt;/span&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:12pt; font-weight:600; color:#a6a6a7;&quot;&gt; or &lt;/span&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:12pt; font-weight:600; font-style:italic; color:#a70000;&quot;&gt;Death&lt;/span&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:12pt; font-weight:600; color:#a70000;&quot;&gt; situation &lt;/span&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:12pt; font-weight:600; color:#a6a6a7;&quot;&gt;fill face you. But before finding out how the hero survives, you can put you're own instincts to the test by evaluating three survival options for each scenario — two of which could be &lt;/span&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:12pt; font-weight:600; font-style:italic; color:#a70000;&quot;&gt;deadly.  &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:12pt; font-weight:600; color:#a6a6a7;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt;Anwsers will give you the facts that will improve your odds of survival the next time you are in a&lt;/span&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:12pt; font-weight:600; font-style:italic; color:#ffffff;&quot;&gt; Life&lt;/span&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt; or &lt;/span&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:12pt; font-weight:600; font-style:italic; color:#ffffff;&quot;&gt;Death&lt;/span&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt; situation. With only a few seconds to react, would you make it out alive?&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Arial','sans-serif'; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Arial','sans-serif'; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:12pt; font-weight:600; font-style:italic; text-decoration: underline; color:#ffffff;&quot;&gt;NOTE: This project is based on the show in National Geographic called &amp;quot;Do or Die&amp;quot;.Some of the pictures are taken from the show. I DO NOT own this idea. This is just the show turned into an game with GUI. ALSO THE ANWSERS ARE NOT 100% GUARANTEED TO SAVE YOU. IT IS THE BEST YOU CAN DO!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>290</y>
+       <width>241</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="contextMenuPolicy">
+      <enum>Qt::NoContextMenu</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>PLAY</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1151</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:48pt; font-weight:600; color:#00e423;&quot;&gt;    Life &lt;/span&gt;&lt;span style=&quot; font-size:48pt; color:#a7b0a9;&quot;&gt;or &lt;/span&gt;&lt;span style=&quot; font-size:48pt; font-weight:600; color:#f00000;&quot;&gt;Death&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_5">
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>970</x>
+       <y>760</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0 rgba(35, 40, 3, 255), stop:0.16 rgba(136, 106, 22, 255), stop:0.225 rgba(166, 140, 41, 255), stop:0.285 rgba(204, 181, 74, 255), stop:0.345 rgba(235, 219, 102, 255), stop:0.415 rgba(245, 236, 112, 255), stop:0.52 rgba(209, 190, 76, 255), stop:0.57 rgba(187, 156, 51, 255), stop:0.635 rgba(168, 142, 42, 255), stop:0.695 rgba(202, 174, 68, 255), stop:0.75 rgba(218, 202, 86, 255), stop:0.815 rgba(208, 187, 73, 255), stop:0.88 rgba(187, 156, 51, 255), stop:0.935 rgba(137, 108, 26, 255), stop:1 rgba(35, 40, 3, 255));
+color: rgb(255, 255, 0);
+font: 8pt &quot;MS Serif&quot;;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+     </property>
+     <property name="text">
+      <string>Submit</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="Anwser_A">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>130</y>
+       <width>231</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.744318, y2:0.75, stop:0 rgba(0, 255, 0, 255), stop:1 rgba(0, 0, 0, 255));
+color: rgb(255, 255, 0);
+background-color: qlineargradient(spread:pad, x1:0.018, y1:0, x2:1, y2:1, stop:0 rgba(102, 102, 102, 255), stop:1 rgba(255, 255, 255, 255));</string>
+     </property>
+     <property name="text">
+      <string>RadioButton</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="Anwser_C">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>380</y>
+       <width>301</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0.018, y1:0, x2:1, y2:1, stop:0 rgba(102, 102, 102, 255), stop:1 rgba(255, 255, 255, 255));
+color: rgb(255, 255, 0);</string>
+     </property>
+     <property name="text">
+      <string>RadioButton</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="Anwser_B">
+     <property name="geometry">
+      <rect>
+       <x>820</x>
+       <y>130</y>
+       <width>271</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0.018, y1:0, x2:1, y2:1, stop:0 rgba(102, 102, 102, 255), stop:1 rgba(255, 255, 255, 255));
+color: rgb(255, 255, 0);</string>
+     </property>
+     <property name="text">
+      <string>RadioButton</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>70</y>
+       <width>591</width>
+       <height>291</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="ASASAS.qrc">:/newPrefix/Avalanche.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>370</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0.018, y1:0, x2:1, y2:1, stop:0 rgba(102, 102, 102, 255), stop:1 rgba(255, 255, 255, 255));</string>
+     </property>
+     <property name="text">
+      <string>Yes</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>670</x>
+       <y>370</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0.018, y1:0, x2:1, y2:1, stop:0 rgba(102, 102, 102, 255), stop:1 rgba(255, 255, 255, 255));</string>
+     </property>
+     <property name="text">
+      <string>No</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>230</y>
+       <width>201</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0.018, y1:0, x2:1, y2:1, stop:0 rgba(102, 102, 102, 255), stop:1 rgba(255, 255, 255, 255));
+font: 81 8pt &quot;Rockwell Extra Bold&quot;;</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600; font-style:italic; color:#ff0004;&quot;&gt;Do you dare to try again?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="textBrowser">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1101</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0.018, y1:0, x2:1, y2:1, stop:0 rgba(102, 102, 102, 255), stop:1 rgba(255, 255, 255, 255));
+color: rgb(255, 255, 0);</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="textBrowser_3">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>410</y>
+       <width>991</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0.018, y1:0, x2:1, y2:1, stop:0 rgba(102, 102, 102, 255), stop:1 rgba(255, 255, 255, 255));
+color: rgb(255, 255, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>690</y>
+       <width>291</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0.018, y1:0, x2:1, y2:1, stop:0 rgba(102, 102, 102, 255), stop:1 rgba(255, 255, 255, 255));
+color: rgb(255, 255, 0);</string>
+     </property>
+     <property name="text">
+      <string>CORRECT ANWSER!</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="ASASAS.qrc"/>
+ </resources>
+ <connections/>
+</ui>
